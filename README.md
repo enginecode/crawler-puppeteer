@@ -5,3 +5,6 @@ Puppeteer是谷歌官方出品的一个通过DevTools协议控制headless Chrome
 本项目当前只对天猫商品详情数据进行爬虫，后期会扩展淘宝登录后搜索爬虫，欢迎继续关注。
 
 ![公众号](./documents/qrcode.jpg "关注公众号")
+
+
+* [使用](./documents/use.md)
