@@ -14,8 +14,8 @@ Puppeteer是谷歌官方出品的一个通过DevTools协议控制headless Chrome
 用户可在`tmall.js`的`urls`属性中配置需要爬取的url，将天猫商品详情的url复制进去即可。
 
 ### 运行
-
-1. 创建mysql数据库，可命名为`cheese`，然后执行`db.sql`即可；
-2. 安装nodejs；
-3. 在`cmd`或`powershell`环境下执行`npm i -S`进行依赖安装，安装过程中可能会因为网络问题下载失败，可执行`npm install puppeteer --ignore-scripts` 跳过chromuin的安装；
-4. 执行 `node index.js`，如果用户希望数据输出到文件，可执行 `node index.js > data.log`。
+1. 在本地目录执行 `git clone https://github.com/enginecode/crawler-puppeteer.git`
+2. 创建mysql数据库，可命名为`cheese`，然后执行`db.sql`即可；
+3. 安装nodejs；
+4. 在`cmd`或`powershell`环境下执行`npm i -S`进行依赖安装，安装过程中可能会因为网络问题下载失败，可执行`npm install puppeteer --ignore-scripts` 跳过chromuin的安装；
+5. 执行 `node index.js`，如果用户希望数据输出到文件，可执行 `node index.js > data.log`。
